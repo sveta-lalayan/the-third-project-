@@ -1,8 +1,8 @@
 import json
 import datetime
 
-import ROOT from config
-operations_path = os.path.join(ROOT_DIR, “src”, “operations.json”)
+import ROOT_DIR from config
+
 
 
 def test_load_transactions():
