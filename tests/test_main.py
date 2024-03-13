@@ -3,6 +3,8 @@ import datetime
 
 import ROOT_DIR from config
 
+operations_path = os.path.join(ROOT_DIR, “src”, “operations.json”)
+
 
 
 def test_load_transactions():
